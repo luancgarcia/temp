@@ -4697,7 +4697,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var url = '/teste';
+	var url = '/';
 	exports.start = function () {
 
 		_reactDom2.default.render(_react2.default.createElement(
@@ -31804,7 +31804,6 @@
 				var _this2 = this;
 
 				_axios2.default.get(api.baseUrl + '/' + this.state.id + '?access_token=' + api.client_id).then(function (response) {
-					console.log(response);
 					var res = response.data;
 					_this2.setState({
 						image: res.images.teaser,

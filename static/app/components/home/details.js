@@ -25,7 +25,6 @@ class Details extends Component {
 	componentDidMount() {
 		axios.get(api.baseUrl + '/' + this.state.id + '?access_token='+api.client_id)
             .then((response) => {
-            	console.log(response);
             	let res = response.data;
                 this.setState({	
                 	image: res.images.teaser,
