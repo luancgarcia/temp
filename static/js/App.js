@@ -4697,7 +4697,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var url = '/';
+	var url = '/teste';
 	exports.start = function () {
 
 		_reactDom2.default.render(_react2.default.createElement(

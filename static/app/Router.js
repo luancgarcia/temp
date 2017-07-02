@@ -7,7 +7,7 @@ import Main from './components/Main';
 import Home from './components/home/Home';
 import Details from './components/home/Details';
 
-const url = '/';
+const url = '/teste';
 exports.start = function() {
 
 	ReactDOM.render((
