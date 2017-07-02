@@ -30091,7 +30091,6 @@
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	            console.log("render");
 	            var loader = _react2.default.createElement(
 	                'div',
 	                null,

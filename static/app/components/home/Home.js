@@ -49,7 +49,6 @@ class Home extends Component {
     }
 
     render(){
-        console.log("render");
         let loader = <div>loading...</div>;
 
         let items = [];
